@@ -1,0 +1,68 @@
+
+.exercise-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../assets/img/gym.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+  
+  .exercise-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px; 
+    color: #4e0c5e; 
+  }
+  
+  .exercise-form {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 30px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; 
+    border-radius: 4px;
+  }
+  
+  .btn-block {
+    width: 100%;
+    padding: 10px;
+    background-color: #4e0c5e ; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-block:hover {
+    background-color: #390c44; 
+  }
+  .form-group {
+    position: relative;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+  }
+  
